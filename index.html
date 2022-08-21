@@ -1,0 +1,70 @@
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Thorger Jansen">
+        <meta name="keywords" lang="de" content="RUB, Kaffee, Karte, Rub Karte, Rub Kaffee, RUB Kaffee Karte, Ruhr Universität Bochum">
+        <meta name="description" content="Diese Karte zeigt, wo es Kaffee gibt.">
+        <title>🦊 RUB Kaffee Karte</title>
+    </head>
+
+    <body>
+    <div class="outer_wrapper">
+        <div calss="top_wrapper">
+            <div class="column" id="legende">
+                <h2 class="center">Legende:</h2>
+                <table id="legende_table">
+                    <tr>
+                        <th class="left">Marker</th>
+                        <th class="left">Bedeutung</th>
+                    </tr>
+                    <tr>
+                        <td><img src="img/marker-icon-violet.png"></td>
+                        <td><p>🦊 Favoriten</p></td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/marker-icon-green.png"></td>
+                        <td><p>Hier gibt es Kaffee</p></td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/marker-icon-yellow.png"></td>
+                        <td><p>Hier wird Kaffee vermutet</p></td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/marker-icon-red.png"></td>
+                        <td><p>Hier gab es mal Kaffee</p></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="column" id="info">
+                <h2 class="center">🦊 RUB Kaffee Karte</h2>
+                <p>Diese Karte zeigt Orte in Campusnähe, an denen es Kaffee gibt.
+                    Sofern der Nutzer zustimmt, wird auf der Karte auch die Position des Nutzers angezeigt.
+                    Vorschläge und Korrekturen an meine RUB-Email oder über das
+                    <a href="https://github.com/ThetaEdra/Rub-Kaffeekarte" target="_blank">Repo</a>.
+                </p>
+            </div>
+
+            <div class="column" id="fuchsi">
+                <figure class="center">
+                    <img id="fuchsbild" src="img/fuchsi.jpg">
+                    <figcaption>Fuchsi ist oft auf dem Campus unterwegs.</figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div class="column_map">
+            <div id="mapid"></div>
+        </div>
+    </div>
+    </body>
+
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <script src="leaflet/leaflet.js"></script>
+    <link rel="stylesheet" href="mouseposition/L.Control.MousePosition.css"/>
+    <script src="mouseposition/L.Control.MousePosition.js"></script>
+
+    <link rel="stylesheet" href="style.css"/>
+    <script type="text/javascript" src="markers/markers.js"></script>
+    <script type="text/javascript" src="initmap.js"></script>
+</html>
