@@ -10,31 +10,6 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // Show mousecoordinates
 L.control.mousePosition().addTo(mapid);
 
-// What happens when the location of the user was found
-function onLocationFound(e) {
-    // the circle size is the inaccuracy field
-    var radius = e.accuracy / 2;
-    // adds a marker at the users position with a popup text
-    L.marker(e.latlng).addTo(mapid)
-        .bindPopup("Du bist hier +- " + radius / 2 + " Meter");
-    L.circle(e.latlng, radius).addTo(mapid);
-}
-
-// what happens when it wasnt found
-function onLocationError(e) {
-    // We dont want to annoy the users for now
-    //alert("Ich konnte dich leider nicht auf der Karte finden");
-}
-
-// handle the functions and try to locate the user
-mapid.on('locationfound', onLocationFound);
-mapid.on('locationerror', onLocationError);
-// locate the user. Also TODO:
-// Use "watch: true" in the future maybe? Look into the documentation
-// how it is implemented and see if markers can be refreshed easily
-mapid.locate({maxZoom: 16});
-
-
 var markerlist = {};
 // Load Colored Markers
 var blueIcon = new L.Icon({
