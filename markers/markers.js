@@ -1,9 +1,9 @@
 markers=[{
-    "name": "Café Olé 🦊🦊🦊🦊🦊",
+    "name": "Café Olé 🦊🦊🦊🦊",
     "icon": "violet",
     "latitud": 51.44599,
     "longitud": 7.26042,
-    "description": "(Ordentlich starker) Kaffee für 1,20€, Mo. - Fr. 8:00 - 17:00 Uhr . Viele Zusätze wie Sojamilch oder Sirup verfügbar. Im SSC direkt hinter der Drehtür. Zudem gibt es Brötchen, Toast, Kuchen und weiteres. Die Bedienung ist sehr freundlich."
+    "description": "(Ordentlich starker) Kaffee für 1,20€, Mo. - Fr. 8:00 - 17:00 Uhr . Viele Zusätze wie Sojamilch oder Sirup verfügbar. Im SSC direkt hinter dem Eingangsbereich. Zudem gibt es Brötchen, Toast, Kuchen und weiteres."
 },{
     "name": "Kulturkaffee 🦊🦊🦊🦊🦊",
     "icon": "violet",
