@@ -1,4 +1,10 @@
 markers=[{
+    "name": "Backwerk 🦊🦊🦊🦊",
+    "icon": "green",
+    "latitud": 51.44856,
+    "longitud": 7.25821,
+    "description": "Große Becher zu einem akzeptablen Preis direkt aus dem Vollautomaten. Selbstbedienung, Morgens jedoch ggf. sehr voll."
+},{
     "name": "Café Olé 🦊🦊🦊🦊",
     "icon": "violet",
     "latitud": 51.44599,
