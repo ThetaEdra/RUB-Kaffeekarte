@@ -5,7 +5,7 @@ markers=[{
     "longitud": 7.25821,
     "description": "Große Becher zu einem akzeptablen Preis direkt aus dem Vollautomaten. Selbstbedienung, Morgens jedoch ggf. sehr voll."
 },{
-    "name": "Café Olé 🦊🦊🦊🦊",
+    "name": "Café Olé 🦊🦊🦊🦊🦊",
     "icon": "violet",
     "latitud": 51.44599,
     "longitud": 7.26042,
@@ -35,11 +35,11 @@ markers=[{
     "longitud": 7.26054,
     "description": "Praktischerweise direkt in der Bibliothek. Allerdings gibt es soweit ich weiß nicht wie im KuKaf die Möglichkeit Laptops zu laden. Günstig ist es auch nicht und es hat ein wenig was von Starbucks Vibes."
 },{
-    "name": "Café Insgrüne",
-    "icon": "red",
-    "latitud": 51.44405,
-    "longitud": 7.2599,
-    "description": "Hat vorerst geschlossen. Gerne eine E-Mail schreiben, wenn es etwas neues gibt."
+    "name": "Kiosk Campus Center",
+    "icon": "green",
+    "latitud": 51.44392,
+    "longitud": 7.26006,
+    "description": "Fuchsi war hier noch nicht. Gibt es hier guten Kaffee?"
 },{
     "name": "Beckmanns Hof",
     "icon": "yellow",
